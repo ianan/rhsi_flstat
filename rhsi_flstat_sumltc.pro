@@ -93,7 +93,8 @@ pro rhsi_flstat_sumltc
     atn_flag=flgs.flags[14]
     
     ;  Save it out...
-    save,file=datname+'.dat',times,countrate,dets_id,engs_id,saa_flag,ecl_flag,flr_flag,atn_flag,dets_ind
+    id_number=res.id_num[i]
+    save,file=datname+'.dat',times,countrate,id_number,saa_flag,ecl_flag,flr_flag,atn_flag,dets_ind,dets_id,engs_id
 
   endfor
 
