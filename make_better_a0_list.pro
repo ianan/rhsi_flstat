@@ -1,5 +1,4 @@
 pro make_better_a0_list
-  compile_opt idl2
 
   ; ***** Completely changing how access list, now using:
   ; https://hesperia.gsfc.nasa.gov/ssw/hessi/doc/guides/flare_list_utilities.htm
